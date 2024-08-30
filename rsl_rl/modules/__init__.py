@@ -7,4 +7,6 @@ from .actor_critic import ActorCritic
 from .actor_critic_recurrent import ActorCriticRecurrent
 from .normalizer import EmpiricalNormalization
 
+from .network_builder import build_mlp, get_activation
+
 __all__ = ["ActorCritic", "ActorCriticRecurrent"]
